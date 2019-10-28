@@ -15,8 +15,8 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Acxiom Immersion Day - Simple PHP App</h1>
-                <h2>Congratulations</h2>
+                <h1>Acxiom Immersion Day</h1>
+                <h2>Great Giveaways and Takeaways</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
