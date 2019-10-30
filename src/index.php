@@ -15,9 +15,9 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Acxiom Immersion Day</h1>
+                <h1>Immersion Day Demo</h1>
                 <h2>Great Giveaways and Takeaways</h2>
-                <p>Fun for all! Everybody's a winner. Your PHP application is now running on a container in Amazon ECS.</p>
+                <p>Fun for all! Everybody's a winner. Your PHP application is now running on a container in Amazon ECS. The application is being delivered via CodePipeline. CodePipeline in Shared Services account with ECS cluster in another account.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
